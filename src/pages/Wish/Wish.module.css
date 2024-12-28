@@ -1,0 +1,67 @@
+.container{
+    background-color: #0d2d3e;
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.write p{
+    color: white;
+    
+}
+.write{
+    display: flex;
+    font-size: 13px;
+    width: 75%;
+    gap: 12px;
+    padding: 0px 0px 0px 40px;  
+}
+.icons a{
+    color: white;
+
+}
+.icons{
+    display: flex;
+    gap: 25px;
+    font-size: 18px;
+}
+.clock{
+    color: red;
+}
+.container i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    gap: 30px;
+}
+.consulting{
+    padding: 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.home a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.home a:hover{
+    color: red;
+    transition: .5s;
+}
+.icons a:hover{
+    color: red;
+    transition: .5s;
+}
+.carrd h1{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

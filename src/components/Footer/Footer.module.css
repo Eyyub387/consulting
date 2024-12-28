@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.foot{
+    background-color:#0d2d3e;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+.write{
+    color: white;
+    display: flex;
+}
+.write p{
+    display: flex;
+    gap: 10px;
+}
+.write i{
+    color:#FF2143;
+}
+.write span{
+    color:#FF2143;
+}

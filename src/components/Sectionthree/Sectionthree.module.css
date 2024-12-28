@@ -1,0 +1,119 @@
+.ethan{
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.ethan span, a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ethan a{
+    display: flex;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #0D2D3e;
+}
+.ethan{
+    display: flex;
+    color: #ff2143;
+    font-weight: 600;
+    font-size: 16px;
+}
+.ethan img:hover{
+    transform: scale(0.9);
+    transition: .9s;
+}
+.ourr{
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+}
+.ourr span{
+    color: #ff2143;
+    font-size: 25px;
+}
+.ourr h4{
+    display: flex;
+    font-weight: 500;
+    color: #0D2D3e;
+    font-size: 45px;
+}
+
+.ourr {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.ourr span {
+    font-size: 14px;
+    color: #888;
+}
+
+.ourr h4 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.teamContainer {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;  
+}
+
+.teamMember {
+    text-align: center;
+    max-width: 300px; 
+    width: 100%;  
+}
+
+.teamMember img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.teamMember a {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.teamMember span {
+    display: block;
+    margin-top: 5px;
+    color: #888;
+}
+
+
+@media (max-width: 768px) {
+    .teamContainer {
+        justify-content: center; 
+    }
+
+    .teamMember {
+        max-width: 80%;  
+    }
+}
+
+@media (max-width: 480px) {
+    .teamContainer {
+        flex-direction: column;  
+        align-items: center;
+    }
+
+    .teamMember {
+        max-width: 100%;  
+        margin-bottom: 30px;  
+    }
+}
+

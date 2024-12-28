@@ -1,0 +1,13 @@
+.frobes{
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.photos{
+    display: flex;
+    gap: 35px;
+}
+
+
